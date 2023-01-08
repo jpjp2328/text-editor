@@ -41,12 +41,12 @@ export const getDb = async () => {
   const request = store.getAll();
   // confirmation of request
   const result = await request;
-  const string = "";
-  for (let index = 0; index < result.length; index++) {
-    string += result[i].content
-  }
-  console.log('results.value', result);
-  return string;
+  // const string = "";
+  // for (let i = 0; i < result.length; i++) {
+  //   string += result[i].content
+  // };
+  console.log('result.value', result);
+  // return result.value;
 };
 
 
